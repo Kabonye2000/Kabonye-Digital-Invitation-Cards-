@@ -1,0 +1,78 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: #f8f1e7;
+    padding: 30px;
+}
+
+img {
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 4px 10px gray;
+}
+
+h1 {
+    color: #8b5e3c;
+    font-size: 32px;
+}
+
+h2 {
+    color: #555;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}/* Animation ya kichwa */
+h1 {
+    animation: kuingia 2s ease-in-out;
+}
+
+/* Animation ya picha */
+img {
+    animation: picha 2s ease-in-out;
+}
+
+/* Animation ya maandishi */
+p, h2 {
+    animation: kuingia 3s ease-in-out;
+}
+
+
+@keyframes kuingia {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes picha {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+.message {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+    max-width: 500px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.message h2 {
+    color: #8b5e3c;
+}
